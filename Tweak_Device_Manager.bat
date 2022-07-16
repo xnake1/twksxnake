@@ -17,7 +17,7 @@ if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
 @echo off
 echo .
 cls
-powershell Invoke-WebRequest "https://cdn.discordapp.com/attachments/919533685785632798/944524976323715093/DevManView.exe" -OutFile "C:\Windows\DevManView.exe"
+powershell Invoke-WebRequest "https://github.com/xnake1/twksxnake/raw/main/DevManView.exe" -OutFile "C:\Windows\DevManView.exe"
 echo Aplicando Device Manager cfgs[...]
 timeout /T 1 /NOBREAK > nul
 devmanview /disable "Microsoft System Management BIOS Driver"
