@@ -12,6 +12,9 @@ Echo has obtained administrator rights
 
 
 
+@echo off
+color 17
+cls
 
 
 @echo off
