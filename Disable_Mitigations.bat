@@ -46,7 +46,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel" /v "Disab
 timeout 1 > nul
 
 :: Data Excecution Prevention (DEP)
-bcdedit /set nx AlwaysOff >nul 2>&1
+bcdedit /set {current} nx AlwaysOff >nul 2>&1
 timeout 1 > nul
 cls
 
